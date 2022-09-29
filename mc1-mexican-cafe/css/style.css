@@ -1,1 +1,119 @@
 /* Write CSS code here */
+#nav1{
+  padding-left: 40px;
+  padding-right: 40px;
+  
+}
+#nav2{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+li{
+  display: inline;
+  margin:70px ;
+  margin-top: 50px;
+  /* padding: auto; */
+  
+}
+#about{
+  margin-top: 60px;
+}
+a{
+ display: inline;
+ text-decoration: none;   
+ background-color: rgb(92, 18, 18);
+ color: azure;
+ padding: 10px;
+ color: yellow;
+ padding-right: 10px;
+ margin-left: 0px;
+ border-radius: 5px;
+}
+body{
+    background-color: bisque;
+    margin-top: 50px;
+   
+}
+#taco{
+    float: left;
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+main::after{
+  display: block;
+  clear: both;
+  margin-top: 30px;
+}
+
+footer img{
+  width: 100px;
+  height: 80px;
+  margin-top: 80px;
+}
+#fig2 div{
+ 
+  padding-right: 160px;
+  margin-left: 0px;
+  padding-right: 100px;
+}
+#fig2 figcaption{
+
+  width: 250;
+  padding-top: 10px;
+  
+}
+#img1{
+  border-radius:100px;
+}
+
+#fig1 img{
+  /* background-color: brown;  */
+  padding: 10px;
+  width: 100px;
+  height: 80px;
+}
+#fig2{
+  display: inline-flex;
+  margin-left: 120px;
+}
+
+#taco1 {
+   /* background-color: brown;  */
+  display: inline-block;
+   width: 250px;
+   height: 200px;
+   background-color: rgb(92, 18, 18);
+   text-align: center;
+   margin-left: 20px;
+   margin-top: 60px;
+}
+#taco1 img{
+border-radius: 100px;
+margin-top: 10px;
+
+}
+#p3{
+  display: inline;
+  color: yellow;
+  position:absolute;
+  left: 680px;
+  bottom: 230px;
+}
+#p4{
+  display:inline;
+  color: yellow;
+  position: absolute;
+  right: 460px;
+  bottom: 230px;
+}
+#p5{
+  display:inline;
+  color: yellow;
+  position: absolute;
+  clear: both;
+  right: 190px;
+  bottom: 230px;
+}
